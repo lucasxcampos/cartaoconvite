@@ -9,7 +9,7 @@ h1 {
   width: 550px;
   height: 300px;
   box-sizing: border-box;
-  background: url("/main/foto01.png") no-repeat;
+  background: url("foto01.png") no-repeat;
   background-size: cover;
   padding: 1px 20px;
   margin: auto;
