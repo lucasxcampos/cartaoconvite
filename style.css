@@ -1,0 +1,85 @@
+body {
+  background-color: #49007a;
+  font-family: Arial, Helvetica, sans-serif;
+}
+h1 {
+  color: rgb(144, 43, 226);
+}
+.card {
+  width: 550px;
+  height: 300px;
+  box-sizing: border-box;
+  background: url("../1icons/foto01.png") no-repeat;
+  background-size: cover;
+  padding: 1px 20px;
+  margin: auto;
+  margin-top: 10%;
+  border-radius: 6%;
+  border-style: solid;
+  border-color: #b54bfb;
+}
+
+.github {
+  background: #aa88ff;
+  color: #103;
+  box-shadow: 3px 4px 0px 0px #899599;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+  background-image: url("../1icons/github.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  font-family: sans-serif;
+}
+.github:active {
+  position: relative;
+  top: 1px;
+}
+.linkedin {
+  background: #aa88ff;
+  color: #103;
+  box-shadow: 3px 4px 0px 0px #899599;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+  background-image: url("../1icons/linkedin.svg");
+  text-align: center;
+  background-repeat: no-repeat;
+  background-position-y: center;
+  font-family: sans-serif;
+}
+
+.linkedin:active {
+  position: relative;
+  top: 1px;
+}
+
+.instagram {
+  background: #a8f;
+  color: #103;
+  box-shadow: 3px 4px 0px 0px #899599;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 4px;
+  text-align: center;
+  font-size: 20px;
+  background-image: url("../1icons/instagram.svg");
+  background-repeat: no-repeat;
+  background-position-y: center;
+  font-family: sans-serif;
+}
+.instagram:active {
+  position: relative;
+  top: 1px;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: 200px;
+  gap: 20px;
+  place-content: start;
+}
